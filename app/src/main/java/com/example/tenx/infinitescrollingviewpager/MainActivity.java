@@ -22,7 +22,11 @@ public class MainActivity extends AppCompatActivity {
         pager = findViewById(R.id.pager);
         pager.addOnPageChangeListener(new CircularViewPagerHandler(pager, adapter));
         pager.setAdapter(adapter);
-        TimerTask timerTask = new TimerTask() {
+
+        //add timer for auto scroll
+
+
+       /* TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
                 pager.post(new Runnable() {
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer timer = new Timer();
-        timer.schedule(timerTask, 500, 2300);
+        timer.schedule(timerTask, 500, 2300);*/
 
 
     }
