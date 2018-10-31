@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         //add timer for auto scroll
 
 
-       /* TimerTask timerTask = new TimerTask() {
+        TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
                 pager.post(new Runnable() {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         Timer timer = new Timer();
-        timer.schedule(timerTask, 500, 2300);*/
+        timer.schedule(timerTask, 500, 2300);
 
 
     }
